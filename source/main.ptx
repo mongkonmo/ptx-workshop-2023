@@ -52,6 +52,25 @@
       <section xml:id="section-title">
         <title>Section title</title>
         <p>Hello</p>
+          <definition xml:id="def-">
+            <statement>
+              <p>
+                
+              </p>
+            </statement>
+          </definition>
+
+          <figure xml:id="myfig">
+          <caption>A tikz image</caption>
+          <image>
+            <description>An example image</description>
+            <latex-image>
+              \begin{tikzpicture}
+                \draw [blue](0,0) rectangle (1,1);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
       </section>
 
     </chapter>
